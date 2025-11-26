@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+      }
+      .main {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 5px;
+      }
+      .image {
+        width: 100%;
+      }
+      .image img {
+        width: 100%;
+      }
+      @media only screen and (min-width: 992px) {
+        .main {
+          grid-template-columns: auto auto auto;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        .main {
+          grid-template-columns: auto auto;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .main {
+          grid-template-columns: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="image"><img src="./images/1000111161.jpg" alt="" /></div>
+      <div class="image"><img src="./images/1000111167 (1).jpg" alt="" /></div>
+      <div class="image"><img src="./images/IMG_20251026_084418.jpg" alt="" /></div>
+      <div class="image"><img src="./images/IMG_20251029_074836_593.webp" alt="" /></div>
+      <div class="image"><img src="./images/IMG_20251104_205406.jpg" alt="" /></div>
+      <div class="image"><img src="./images/IMG_20251026_084418.jpg" alt="" /></div>
+    </div>
+  </body>
+</html>
